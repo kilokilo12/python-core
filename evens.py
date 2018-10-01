@@ -1,6 +1,7 @@
 def even_number_of_evens(numbers):
     
-    # Check to see if the list is empty
+    # Check to see if the list is empty - but later it will become unnecessary 
+    # because next tests already cover that so we can delete it
     if numbers == []:
         return False
     else:
